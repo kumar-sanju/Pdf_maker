@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextPdfActivity">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FFEB3B"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/nameText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Name"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#FF903B"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/calibrationText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Calibration"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/dobText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Date of birth"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#009688"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/heightText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Height"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="#E91E63"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/wightText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Weight"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#FFEB3B"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Invoice"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
